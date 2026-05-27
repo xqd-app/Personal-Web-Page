@@ -1,6 +1,26 @@
 {
   "rewrites": [
     {
+      "source": "/data/(.*)",
+      "destination": "/data/$1"
+    },
+    {
+      "source": "/(.*\\.pdf)",
+      "destination": "/$1"
+    },
+    {
+      "source": "/(.*\\.jpg)",
+      "destination": "/$1"
+    },
+    {
+      "source": "/(.*\\.jpeg)",
+      "destination": "/$1"
+    },
+    {
+      "source": "/(.*\\.png)",
+      "destination": "/$1"
+    },
+    {
       "source": "/(.*)",
       "destination": "/"
     }
