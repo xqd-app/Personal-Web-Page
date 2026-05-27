@@ -4,7 +4,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import { traeBadgePlugin } from 'vite-plugin-trae-solo-badge';
 
 export default defineConfig({
-  base: '/', // 用户站点根路径
+  base: '', // 空字符串确保路由正确
   build: {
     sourcemap: 'hidden',
   },
