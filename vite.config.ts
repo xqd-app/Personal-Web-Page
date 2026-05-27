@@ -2,11 +2,18 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tsconfigPaths from "vite-tsconfig-paths";
 import { traeBadgePlugin } from 'vite-plugin-trae-solo-badge';
+import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 export default defineConfig({
   base: '', // 空字符串确保路由正确
   build: {
     sourcemap: 'hidden',
+    assetsInclude: ['**/*.jpg', '**/*.jpeg', '**/*.png', '**/*.gif'],
+  },
+  resolve: {
+    alias: {
+      '@': '/src',
+    },
   },
   plugins: [
     react({
@@ -25,6 +32,14 @@ export default defineConfig({
       autoTheme: true,
       autoThemeTarget: '#root'
     }), 
-    tsconfigPaths()
+    tsconfigPaths(),
+    viteStaticCopy({
+      targets: [
+        {
+          src: 'data',
+          dest: '.',
+        },
+      ],
+    }),
   ],
 })
