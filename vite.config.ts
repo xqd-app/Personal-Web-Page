@@ -8,7 +8,7 @@ export default defineConfig({
   base: '', // 空字符串确保路由正确
   build: {
     sourcemap: 'hidden',
-    assetsInclude: ['**/*.jpg', '**/*.jpeg', '**/*.png', '**/*.gif'],
+    assetsInclude: ['**/*.jpg', '**/*.jpeg', '**/*.png', '**/*.gif', '**/*.pdf'],
   },
   resolve: {
     alias: {

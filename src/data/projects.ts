@@ -167,7 +167,7 @@ export const patents: Patent[] = [
     date: "2025年",
     status: "受理中 / Under Review",
     description: "用于动力电池极片生产的涂布装置，提高生产效率和产品质量。 / Coating device for power battery electrode production, improving production efficiency and product quality.",
-    link: "/重提一种用于动力电池极片生产的涂布装置-受理.pdf"
+    link: "/data/patent certificate/重提一种用于动力电池极片生产的涂布装置-受理.pdf"
   }
 ];
 
@@ -187,7 +187,7 @@ export const awards: Award[] = [
     issuer: "昆明文理学院 / Kunming College of Arts and Sciences",
     date: "2025年 / 2025",
     level: "国家级 / National",
-    link: "/1C50AC551AF70224CCAE4AE2A4A2F3D4.jpg"
+    link: "/data/patent certificate/1C50AC551AF70224CCAE4AE2A4A2F3D4.jpg"
   },
   {
     id: "3",
@@ -195,7 +195,7 @@ export const awards: Award[] = [
     issuer: "共青团云南省委 / Communist Youth League Yunnan Provincial Committee",
     date: "2025年7月 / July 2025",
     level: "省级 / Provincial",
-    link: "/微信图片_2026-05-25_211414_299.jpg"
+    link: "/data/patent certificate/微信图片_2026-05-25_211414_299.jpg"
   },
   {
     id: "4",
@@ -203,7 +203,7 @@ export const awards: Award[] = [
     issuer: "共青团昆明文理学院信息工程学院委员会 / Communist Youth League Kunming College of Arts and Sciences Information Engineering College Committee",
     date: "2024年12月 / December 2024",
     level: "校级 / University Level",
-    link: "/微信图片_20260525213405_112_244.jpg"
+    link: "/data/patent certificate/微信图片_20260525213405_112_244.jpg"
   },
   {
     id: "5",
@@ -211,7 +211,7 @@ export const awards: Award[] = [
     issuer: "昆明文理学院 / Kunming College of Arts and Sciences",
     date: "2025年5月 / May 2025",
     level: "校级 / University Level",
-    link: "/微信图片_20260525211349_15.jpg"
+    link: "/data/patent certificate/微信图片_20260525211349_15.jpg"
   }
 ];
 
