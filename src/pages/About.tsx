@@ -47,12 +47,18 @@ export function About() {
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
                   我是天蝎座，骨子里带着独有的神秘感，对世间万物都抱有强烈的好奇心。生活里偏向宅家，是典型的社交牛杂症：独处时享受安静自在，沉浸在自己的小世界；面对熟人也能侃侃而谈，相处轻松自然。
+                  <br />
+                  <span className="text-gray-400 text-sm italic">As a Scorpio, I possess a unique sense of mystery deep within and maintain a strong curiosity about everything in the world. I tend to enjoy staying at home, a typical "social ambivert": I relish the peace and freedom of solitude, immersing myself in my own little world; yet I can also chat freely with close friends, making interactions effortless and natural.</span>
                 </p>
                 <p>
                   我始终保持着学习的热情，尤其痴迷各类网络前沿技术，愿意花时间钻研摸索，不断给自己补充新知识、新技能。闲暇之余，摄影和视频剪辑是我最大的乐趣，我喜欢拿起镜头捕捉生活里的美好瞬间，再通过剪辑创作，把想法与画面融合在一起。
+                  <br />
+                  <span className="text-gray-400 text-sm italic">I consistently maintain a passion for learning, particularly fascinated by cutting-edge internet technologies. I'm willing to invest time in research and exploration, constantly updating myself with new knowledge and skills. In my free time, photography and video editing are my greatest joys. I love capturing beautiful moments in life through the lens and then blending ideas with visuals through editing.</span>
                 </p>
                 <p>
                   我有着清晰的自我认知和独立的思考能力，做事遵从内心的选择，从不盲目跟风、追逐潮流。比起迎合大众的喜好，我更愿意坚守自己的节奏，深耕热爱之事，按照自己的步调慢慢成长。
+                  <br />
+                  <span className="text-gray-400 text-sm italic">I have a clear self-awareness and independent thinking ability. I follow my heart in making decisions and never blindly follow trends or chase popularity. Rather than catering to the preferences of the masses, I prefer to stay true to my own pace, dedicate myself to what I love, and grow steadily at my own rhythm.</span>
                 </p>
               </div>
             </div>
