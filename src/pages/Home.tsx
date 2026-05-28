@@ -51,19 +51,19 @@ export function Home() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <span className="text-4xl md:text-5xl font-bold text-purple-600">13+</span>
+              <span className="text-4xl md:text-5xl font-bold text-purple-600">3+</span>
               <p className="text-sm uppercase tracking-widest text-gray-500 mt-2">Years</p>
             </div>
             <div>
-              <span className="text-4xl md:text-5xl font-bold text-purple-600">200+</span>
-              <p className="text-sm uppercase tracking-widest text-gray-500 mt-2">Projects</p>
+              <span className="text-4xl md:text-5xl font-bold text-purple-600">8+</span>
+              <p className="text-sm uppercase tracking-widest text-gray-500 mt-2">PROJECTS</p>
             </div>
             <div>
-              <span className="text-4xl md:text-5xl font-bold text-purple-600">50+</span>
-              <p className="text-sm uppercase tracking-widest text-gray-500 mt-2">Clients</p>
+              <span className="text-4xl md:text-5xl font-bold text-purple-600">5+</span>
+              <p className="text-sm uppercase tracking-widest text-gray-500 mt-2">CLIENTS</p>
             </div>
             <div>
-              <span className="text-4xl md:text-5xl font-bold text-purple-600">500+</span>
+              <span className="text-4xl md:text-5xl font-bold text-purple-600">100+</span>
               <p className="text-sm uppercase tracking-widest text-gray-500 mt-2">Design Assets</p>
             </div>
           </div>

@@ -14,9 +14,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
             <h3 className="text-2xl font-bold mb-4">Xing Qide</h3>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              Freelance creative with RANGE. Designing at the intersection of art and technology for artists who value craft.
-            </p>
+            <p className="text-gray-400 text-sm leading-relaxed">Freelance creative. Designing at the intersection of art and technology for artists who value craft.</p>
           </div>
           
           <div>
@@ -44,7 +42,7 @@ export function Footer() {
               ))}
             </div>
             <p className="mt-4 text-gray-500 text-xs">
-              Austin, TX
+              Xing Qide
             </p>
           </div>
         </div>
